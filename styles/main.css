@@ -99,9 +99,9 @@ li{
 }
 
 #socials--list a{
-    font-weight: 300;
+    font-weight: 500;
     color: #DAA520;
-    font-size: 0.6em;
+    font-size: 1em;
     transition: 0.3s;
 }
 
