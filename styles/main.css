@@ -10,7 +10,7 @@
     --mainTextColor-dark:#0096FF;
     --secondaryTextColor-dark:#adb0b1;
     --mainLinkColor-dark:rgb(30, 190,214);
-    --mainBorderColor-dark:#2b3031;
+    --mainBorderColor-dark:#DAA520;
     --mainBgColor-dark:#131415;
     
     --mainTextColor:var(--mainTextColor-dark);
@@ -147,7 +147,7 @@ li{
 }
 
 .card--work-history{
-    border-left: 1px solid var(--mainBorderColor);
+    border-left: 1.5px solid var(--mainBorderColor);
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
