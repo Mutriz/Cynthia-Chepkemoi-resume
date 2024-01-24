@@ -3,11 +3,11 @@
 :root{
     --mainTextColor-light:#000;
     --secondaryTextColor-light:rgb(51 51 51);
-    --mainLinkColor-light:#0da2b8;
+    --mainLinkColor-light:#088F8F;
     --mainBorderColor-light:rgb(218, 218, 218);
     --mainBgColor-light:rgb(249, 250,251);
 
-    --mainTextColor-dark:#fff;
+    --mainTextColor-dark:#0096FF;
     --secondaryTextColor-dark:#adb0b1;
     --mainLinkColor-dark:rgb(30, 190,214);
     --mainBorderColor-dark:#2b3031;
@@ -99,8 +99,8 @@ li{
 }
 
 #socials--list a{
-    font-weight: 300;
-    color: var(--secondaryTextColor);
+    font-weight: 500;
+    color: #DAA520;
     font-size: 0.9em;
     transition: 0.3s;
 }
@@ -154,8 +154,9 @@ li{
 }
 
 .line-break{
-    background-color: var(--mainBorderColor);
-    height: 1px;
+    background-color: #DAA520;
+    height: 3px;
+	
 }
 
 
@@ -164,8 +165,9 @@ li{
     .section--page{
         padding-top: 1em;
         padding-bottom: 1em;
+		
     }
-
+    
     #wrapper--hero{
         display: flex;
         align-items: center;
@@ -184,5 +186,6 @@ li{
     .card--work-history{
         border-left: none;
         padding-left: 0;
+		
     }
 }
